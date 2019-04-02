@@ -16,7 +16,8 @@ html
           h2 #{__('SPACER')}
           h2 #{__('WELCOME')}
           h2 #{__('SPACER')}
-          h2 #{__('CODE_OF_CONDUCT', coc)}
+          h2 Before joining please read our
+            a(href=`${__('CODE_OF_CONDUCT', coc)}`) Code of Conduct
         .content
           .information
             form(method="POST", action="invite")#join-form.form
